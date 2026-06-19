@@ -12,17 +12,65 @@ if (!API_KEY) {
 const BASE_URL = 'integrate.api.nvidia.com';
 const RATE_LIMIT_DELAY = 1400; // 1.4 seconds between requests (45 RPM)
 
-// Load all 161 models from previous comprehensive test
-const previousResults = require('./nvidia_proper_test_results.json');
-const allModelsFromPreviousTest = previousResults.results.map(r => ({
-  model: r.model,
-  publisher: r.publisher,
-  modelName: r.modelName,
-  detectedType: r.detectedType,
-  endpoint: r.endpoint
-}));
+// Load all 161 models from previous comprehensive test (static fallback/base)
+let allModelsToTest = [];
+try {
+  const previousResults = require('./comprehensive_test_results_complete.json');
+  allModelsToTest = previousResults.models.map(r => ({
+    model: r.model,
+    publisher: r.publisher,
+    modelName: r.modelName,
+    detectedType: r.type,
+    endpoint: r.endpoint
+  }));
+  console.log(`📊 Loaded ${allModelsToTest.length} static models from previous test`);
+} catch (e) {
+  console.log(`⚠️ Static models list not found or invalid:`, e.message);
+}
 
-console.log(`📊 Loaded ${allModelsFromPreviousTest.length} models from previous comprehensive test`);
+// Function to fetch dynamic models from API
+async function fetchDynamicModels() {
+  return new Promise((resolve) => {
+    console.log(`\n🔍 Fetching dynamic models from /v1/models...`);
+    const options = {
+      hostname: BASE_URL,
+      path: '/v1/models',
+      method: 'GET',
+      headers: {
+        'Authorization': `Bearer ${API_KEY}`
+      }
+    };
+
+    const req = https.request(options, res => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        try {
+          if (res.statusCode !== 200) {
+            console.log(`⚠️ API returned status ${res.statusCode}: ${data.substring(0, 100)}`);
+            return resolve([]);
+          }
+          const parsed = JSON.parse(data);
+          if (parsed.data && Array.isArray(parsed.data)) {
+            console.log(`✅ Dynamically fetched ${parsed.data.length} models from NVIDIA API!`);
+            resolve(parsed.data);
+          } else {
+            console.log(`⚠️ Unexpected API format.`);
+            resolve([]);
+          }
+        } catch (e) {
+          console.log(`⚠️ Parse error: ${e.message}`);
+          resolve([]);
+        }
+      });
+    });
+    req.on('error', err => {
+      console.log(`⚠️ Network error fetching models: ${err.message}`);
+      resolve([]);
+    });
+    req.end();
+  });
+}
 
 // Simple 1x1 pixel red PNG for vision testing
 const TEST_IMAGE_BASE64 = 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8DwHwAFBQIAX8jx0gAAAABJRU5ErkJggg==';
@@ -312,14 +360,48 @@ function delay(ms) {
 
 // Main test function
 async function testAllModels() {
+  const dynamicModels = await fetchDynamicModels();
+  
+  // Merge static and dynamic
+  const modelMap = new Map();
+  
+  // Add static first
+  allModelsToTest.forEach(m => modelMap.set(m.model, m));
+  
+  // Process dynamic models
+  dynamicModels.forEach(m => {
+    if (!modelMap.has(m.id)) {
+      const parts = m.id.split('/');
+      const publisher = parts.length > 1 ? parts[0] : 'nvidia';
+      const modelName = parts.length > 1 ? parts[1] : m.id;
+      
+      let type = 'chat';
+      const nameLower = m.id.toLowerCase();
+      if (nameLower.includes('embed')) type = 'embed';
+      else if (nameLower.includes('rerank')) type = 'rerank';
+      else if (nameLower.includes('vision') || nameLower.includes('image')) type = 'vision-multimodal';
+      else if (nameLower.includes('sdxl') || nameLower.includes('diffusion')) type = 'vision-image-only';
+
+      modelMap.set(m.id, {
+        model: m.id,
+        publisher,
+        modelName,
+        detectedType: type,
+        endpoint: `/v1/${type === 'embed' ? 'embeddings' : type === 'rerank' ? 'ranking' : 'chat/completions'}`
+      });
+    }
+  });
+
+  allModelsToTest = Array.from(modelMap.values());
+
   console.log('🚀 Comprehensive NVIDIA NIM API Test\n');
-  console.log('📊 Total Models to Test:', allModelsFromPreviousTest.length);
+  console.log('📊 Total Models to Test:', allModelsToTest.length);
   console.log('⏱️  Rate Limit: 45 requests/minute (1.4s delay)');
-  console.log('⏳ Estimated Time:', Math.ceil((allModelsFromPreviousTest.length * 1.4) / 60), 'minutes\n');
+  console.log('⏳ Estimated Time:', Math.ceil((allModelsToTest.length * 1.4) / 60), 'minutes\n');
 
   const results = {
     testedAt: new Date().toISOString(),
-    totalModels: allModelsFromPreviousTest.length,
+    totalModels: allModelsToTest.length,
     tested: 0,
     working: 0,
     failed: 0,
@@ -329,10 +411,10 @@ async function testAllModels() {
 
   const startTime = Date.now();
 
-  for (let i = 0; i < allModelsFromPreviousTest.length; i++) {
-    const model = allModelsFromPreviousTest[i];
-    const progress = `[${i + 1}/${allModelsFromPreviousTest.length}]`;
-    const percent = ((i + 1) / allModelsFromPreviousTest.length * 100).toFixed(1);
+  for (let i = 0; i < allModelsToTest.length; i++) {
+    const model = allModelsToTest[i];
+    const progress = `[${i + 1}/${allModelsToTest.length}]`;
+    const percent = ((i + 1) / allModelsToTest.length * 100).toFixed(1);
     
     process.stdout.write(`${progress} (${percent}%) Testing ${model.model} [${model.detectedType}]... `);
 
@@ -374,16 +456,16 @@ async function testAllModels() {
     results.models.push(modelResult);
 
     // Rate limiting delay (except for last model)
-    if (i < allModelsFromPreviousTest.length - 1) {
+    if (i < allModelsToTest.length - 1) {
       await delay(RATE_LIMIT_DELAY);
     }
 
     // Progress checkpoint every 25 models
     if ((i + 1) % 25 === 0) {
       const elapsed = ((Date.now() - startTime) / 1000 / 60).toFixed(1);
-      const remaining = allModelsFromPreviousTest.length - (i + 1);
+      const remaining = allModelsToTest.length - (i + 1);
       const etaMinutes = (remaining * 1.4 / 60).toFixed(1);
-      console.log(`\n⏱️  Progress: ${i + 1}/${allModelsFromPreviousTest.length} | Elapsed: ${elapsed}m | ETA: ${etaMinutes}m | Working: ${results.working}/${results.tested}\n`);
+      console.log(`\n⏱️  Progress: ${i + 1}/${allModelsToTest.length} | Elapsed: ${elapsed}m | ETA: ${etaMinutes}m | Working: ${results.working}/${results.tested}\n`);
     }
   }
 
