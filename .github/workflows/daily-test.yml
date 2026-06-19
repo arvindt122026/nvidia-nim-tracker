@@ -1,0 +1,87 @@
+name: Daily NVIDIA NIM API Testing
+
+on:
+  # Run daily at 3:00 AM UTC
+  schedule:
+    - cron: '0 3 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+  
+  # Run on push to main (for testing)
+  push:
+    branches: [ main ]
+
+jobs:
+  test-and-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Run comprehensive tests
+      env:
+        NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+      run: |
+        echo "Starting comprehensive NVIDIA NIM API testing..."
+        node test_all_comprehensive.js
+        echo "Tests completed!"
+    
+    - name: Check for changes
+      id: git-check
+      run: |
+        git diff --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
+    
+    - name: Commit and push if changes
+      if: steps.git-check.outputs.changes == 'true'
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add -A
+        git commit -m "🤖 Automated daily update - $(date +'%Y-%m-%d')"
+        git push
+    
+    - name: Generate summary
+      run: |
+        echo "## 📊 Test Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**Test Date:** $(date +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        if [ -f comprehensive_test_results_complete.json ]; then
+          TOTAL=$(jq -r '.totalModels' comprehensive_test_results_complete.json)
+          WORKING=$(jq -r '.working' comprehensive_test_results_complete.json)
+          FAILED=$(jq -r '.failed' comprehensive_test_results_complete.json)
+          
+          echo "- **Total Models Tested:** $TOTAL" >> $GITHUB_STEP_SUMMARY
+          echo "- **Working Models:** $WORKING ($(echo "scale=1; $WORKING * 100 / $TOTAL" | bc)%)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Failed Models:** $FAILED" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ Documentation updated: [NVIDIA_NIM_ULTIMATE_ALL_IN_ONE.md](https://github.com/${{ github.repository }}/blob/main/NVIDIA_NIM_ULTIMATE_ALL_IN_ONE.md)" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "⚠️ Test results file not found" >> $GITHUB_STEP_SUMMARY
+        fi
+    
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: test-results-${{ github.run_number }}
+        path: |
+          comprehensive_test_results_complete.json
+          all_working_models_verified.json
+          working_models_list.txt
+          NVIDIA_NIM_ULTIMATE_ALL_IN_ONE.md
+        retention-days: 30
