@@ -1,14 +1,14 @@
 {
-  "testedAt": "2026-06-22T18:33:14.693Z",
+  "testedAt": "2026-06-23T12:47:20.691Z",
   "totalModels": 218,
   "tested": 218,
-  "working": 63,
-  "failed": 155,
+  "working": 60,
+  "failed": 158,
   "byType": {
     "chat": {
       "total": 186,
-      "working": 48,
-      "failed": 138
+      "working": 46,
+      "failed": 140
     },
     "rerank": {
       "total": 5,
@@ -27,8 +27,8 @@
     },
     "vision-multimodal": {
       "total": 8,
-      "working": 6,
-      "failed": 2
+      "working": 5,
+      "failed": 3
     }
   },
   "models": [
@@ -39,7 +39,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.81",
+      "time": "0.79",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -50,7 +50,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -62,7 +62,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -74,7 +74,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.18",
+      "time": "0.29",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -85,7 +85,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -97,7 +97,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -109,7 +109,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -121,7 +121,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.33",
+      "time": "0.38",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -131,9 +131,9 @@
       "modelName": "minimax-m2.7",
       "type": "chat",
       "endpoint": "/v1/chat/completions",
-      "success": true,
-      "time": "0.39",
-      "statusCode": 200,
+      "success": false,
+      "time": "30.00",
+      "error": "TIMEOUT",
       "timeout": 30000
     },
     {
@@ -143,7 +143,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "30.00",
+      "time": "30.08",
       "error": "TIMEOUT",
       "timeout": 30000
     },
@@ -154,7 +154,7 @@
       "type": "rerank",
       "endpoint": "/v1/ranking",
       "success": false,
-      "time": "0.13",
+      "time": "0.14",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 30000
@@ -166,7 +166,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.10",
+      "time": "0.27",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -177,7 +177,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -189,7 +189,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -201,7 +201,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 30000
@@ -213,7 +213,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -225,7 +225,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "2.11",
+      "time": "1.36",
       "statusCode": 200,
       "timeout": 90000
     },
@@ -236,7 +236,7 @@
       "type": "rerank",
       "endpoint": "/v1/ranking",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 30000
@@ -247,9 +247,9 @@
       "modelName": "qwen3.5-122b-a10b",
       "type": "chat",
       "endpoint": "/v1/chat/completions",
-      "success": false,
-      "time": "130.00",
-      "error": "TIMEOUT",
+      "success": true,
+      "time": "3.31",
+      "statusCode": 200,
       "timeout": 90000
     },
     {
@@ -259,7 +259,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.12",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -271,7 +271,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.09",
+      "time": "0.06",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -283,7 +283,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -295,7 +295,7 @@
       "type": "embed",
       "endpoint": "/v1/embeddings",
       "success": true,
-      "time": "0.31",
+      "time": "0.24",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -306,7 +306,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.17",
+      "time": "0.77",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -317,7 +317,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 410,
       "error": "The model 'minimaxai/minimax-m2.5' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available.",
       "timeout": 30000
@@ -329,7 +329,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 30000
@@ -341,7 +341,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "1.00",
+      "time": "0.84",
       "statusCode": 200,
       "timeout": 120000
     },
@@ -352,7 +352,7 @@
       "type": "embed",
       "endpoint": "/v1/embeddings",
       "success": true,
-      "time": "0.31",
+      "time": "1.07",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -363,7 +363,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.31",
+      "time": "0.40",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -374,7 +374,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -386,7 +386,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.17",
+      "time": "0.74",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -397,7 +397,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function 'e199b43b-6c62-4a63-9379-f60e1a953236': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -409,7 +409,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -421,7 +421,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 120000
@@ -444,7 +444,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.46",
+      "time": "0.28",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -455,7 +455,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 90000
@@ -467,7 +467,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 410,
       "error": "The model 'moonshotai/kimi-k2-thinking' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available.",
       "timeout": 60000
@@ -479,7 +479,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "2.96",
+      "time": "1.03",
       "statusCode": 200,
       "timeout": 120000
     },
@@ -490,7 +490,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.23",
+      "time": "0.37",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -501,7 +501,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -513,7 +513,7 @@
       "type": "vision-image-only",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.50",
+      "time": "1.31",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -524,7 +524,7 @@
       "type": "vision-multimodal",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.23",
+      "time": "0.71",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -535,7 +535,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.32",
+      "time": "0.42",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -546,7 +546,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -558,7 +558,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -570,7 +570,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 120000
@@ -582,7 +582,7 @@
       "type": "embed",
       "endpoint": "/v1/embeddings",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -594,7 +594,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "4.17",
+      "time": "0.30",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -605,7 +605,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.64",
+      "time": "0.35",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -616,7 +616,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -628,7 +628,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 410,
       "error": "The model 'qwen/qwen3-next-80b-a3b-thinking' has reached its end of life on 2026-05-21T00:00:00Z and is no longer available.",
       "timeout": 30000
@@ -640,7 +640,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -652,7 +652,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -664,7 +664,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -676,7 +676,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.62",
+      "time": "1.62",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -687,7 +687,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -699,7 +699,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 410,
       "error": "The model 'qwen/qwen3-coder-480b-a35b-instruct' has reached its end of life on 2026-06-11T00:00:00Z and is no longer available.",
       "timeout": 120000
@@ -711,7 +711,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.22",
+      "time": "0.40",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -722,7 +722,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -734,7 +734,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -746,7 +746,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -758,7 +758,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.29",
+      "time": "0.28",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -769,7 +769,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.10",
+      "time": "0.24",
       "statusCode": 200,
       "timeout": 90000
     },
@@ -780,7 +780,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -791,9 +791,9 @@
       "modelName": "llama-3.3-nemotron-super-49b-v1.5",
       "type": "chat",
       "endpoint": "/v1/chat/completions",
-      "success": true,
-      "time": "0.49",
-      "statusCode": 200,
+      "success": false,
+      "time": "100.13",
+      "error": "TIMEOUT",
       "timeout": 60000
     },
     {
@@ -803,7 +803,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.72",
+      "time": "0.65",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -814,7 +814,7 @@
       "type": "embed",
       "endpoint": "/v1/embeddings",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -826,7 +826,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -838,7 +838,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 410,
       "error": "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available.",
       "timeout": 60000
@@ -850,7 +850,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -862,7 +862,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.18",
+      "time": "0.78",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -873,7 +873,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -885,7 +885,7 @@
       "type": "vision-multimodal",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.58",
+      "time": "0.65",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -896,7 +896,7 @@
       "type": "vision-multimodal",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.76",
+      "time": "0.68",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -907,7 +907,7 @@
       "type": "rerank",
       "endpoint": "/v1/ranking",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -919,7 +919,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -931,7 +931,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -943,7 +943,7 @@
       "type": "embed",
       "endpoint": "/v1/embeddings",
       "success": false,
-      "time": "0.03",
+      "time": "0.08",
       "statusCode": 404,
       "error": "Function '6cb5bc77-9adc-48ac-85e2-c0ebceda934f': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 30000
@@ -954,10 +954,9 @@
       "modelName": "mistral-nemotron",
       "type": "chat",
       "endpoint": "/v1/chat/completions",
-      "success": false,
-      "time": "22.25",
-      "statusCode": 500,
-      "error": "Inference connection error while making inference request",
+      "success": true,
+      "time": "0.22",
+      "statusCode": 200,
       "timeout": 60000
     },
     {
@@ -967,7 +966,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -979,7 +978,7 @@
       "type": "vision-multimodal",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "9.79",
+      "time": "0.37",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -990,7 +989,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1002,7 +1001,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1014,7 +1013,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1026,7 +1025,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 30000
@@ -1038,7 +1037,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1050,7 +1049,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.08",
       "statusCode": 404,
       "error": "Function '84bf12ff-edbd-4435-baea-0fa6a7453d2e': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 120000
@@ -1062,7 +1061,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.21",
+      "time": "0.20",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -1073,7 +1072,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1085,7 +1084,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1097,7 +1096,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1109,7 +1108,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.24",
+      "time": "0.38",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -1119,9 +1118,9 @@
       "modelName": "llama-3.1-nemotron-nano-8b-v1",
       "type": "chat",
       "endpoint": "/v1/chat/completions",
-      "success": true,
-      "time": "0.67",
-      "statusCode": 200,
+      "success": false,
+      "time": "30.01",
+      "error": "TIMEOUT",
       "timeout": 30000
     },
     {
@@ -1131,7 +1130,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.21",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1143,7 +1142,7 @@
       "type": "embed",
       "endpoint": "/v1/embeddings",
       "success": true,
-      "time": "0.61",
+      "time": "1.17",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -1154,7 +1153,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1166,7 +1165,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1178,7 +1177,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1190,7 +1189,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1202,7 +1201,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1214,7 +1213,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 410,
       "error": "The model 'google/gemma-3-27b-it' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available.",
       "timeout": 60000
@@ -1226,7 +1225,7 @@
       "type": "vision-image-only",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.77",
+      "time": "1.12",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -1237,7 +1236,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "30.03",
+      "time": "30.01",
       "error": "TIMEOUT",
       "timeout": 30000
     },
@@ -1248,7 +1247,7 @@
       "type": "vision-multimodal",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.15",
       "statusCode": 400,
       "error": "Function id '3afd112d-ad66-4d29-81b6-e7d6f8225e07': DEGRADED function cannot be invoked",
       "timeout": 60000
@@ -1260,7 +1259,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.02",
+      "time": "0.12",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1272,7 +1271,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.00",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1284,7 +1283,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 30000
@@ -1296,7 +1295,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.16",
+      "time": "0.26",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -1307,7 +1306,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1319,7 +1318,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.52",
+      "time": "0.82",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -1330,7 +1329,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1342,7 +1341,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 410,
       "error": "The model 'qwen/qwen2.5-coder-32b-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available.",
       "timeout": 30000
@@ -1354,7 +1353,7 @@
       "type": "embed",
       "endpoint": "/v1/embeddings",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 410,
       "error": "The model 'nvidia/llama-3.2-nv-embedqa-1b-v2' has reached its end of life on 2026-05-18T00:00:00Z and is no longer available.",
       "timeout": 30000
@@ -1366,7 +1365,7 @@
       "type": "rerank",
       "endpoint": "/v1/ranking",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 30000
@@ -1378,7 +1377,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1390,7 +1389,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.27",
+      "time": "0.50",
       "statusCode": 200,
       "timeout": 90000
     },
@@ -1401,7 +1400,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1413,7 +1412,7 @@
       "type": "vision-image-only",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1425,7 +1424,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1437,7 +1436,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1449,7 +1448,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1461,7 +1460,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.81",
+      "time": "0.65",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -1471,9 +1470,9 @@
       "modelName": "llama-3.2-11b-vision-instruct",
       "type": "vision-multimodal",
       "endpoint": "/v1/chat/completions",
-      "success": true,
-      "time": "0.45",
-      "statusCode": 200,
+      "success": false,
+      "time": "30.02",
+      "error": "TIMEOUT",
       "timeout": 30000
     },
     {
@@ -1483,7 +1482,7 @@
       "type": "vision-multimodal",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.61",
+      "time": "0.94",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -1493,9 +1492,9 @@
       "modelName": "llama-3.2-1b-instruct",
       "type": "chat",
       "endpoint": "/v1/chat/completions",
-      "success": true,
-      "time": "1.64",
-      "statusCode": 200,
+      "success": false,
+      "time": "30.00",
+      "error": "TIMEOUT",
       "timeout": 30000
     },
     {
@@ -1505,7 +1504,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "12.23",
+      "time": "0.49",
       "statusCode": 200,
       "timeout": 90000
     },
@@ -1516,7 +1515,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.17",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1528,7 +1527,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1540,7 +1539,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1552,7 +1551,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.23",
+      "time": "0.32",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -1563,7 +1562,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 30000
@@ -1575,7 +1574,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 30000
@@ -1587,7 +1586,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1599,7 +1598,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1611,7 +1610,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.16",
+      "time": "0.26",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -1622,7 +1621,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1634,7 +1633,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1646,7 +1645,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 120000
@@ -1658,7 +1657,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "5.35",
+      "time": "0.80",
       "statusCode": 200,
       "timeout": 90000
     },
@@ -1680,7 +1679,7 @@
       "type": "embed",
       "endpoint": "/v1/embeddings",
       "success": true,
-      "time": "0.21",
+      "time": "0.41",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -1691,7 +1690,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1703,7 +1702,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.04",
+      "time": "0.08",
       "statusCode": 404,
       "error": "Function 'cd89bd68-13e3-47a9-861e-9a62e6e14b05': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -1715,7 +1714,7 @@
       "type": "vision-image-only",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1727,7 +1726,7 @@
       "type": "embed",
       "endpoint": "/v1/embeddings",
       "success": true,
-      "time": "0.34",
+      "time": "0.26",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -1738,7 +1737,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.21",
+      "time": "0.30",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -1749,7 +1748,7 @@
       "type": "embed",
       "endpoint": "/v1/embeddings",
       "success": true,
-      "time": "0.21",
+      "time": "1.02",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -1760,7 +1759,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1772,7 +1771,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1784,7 +1783,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 30000
@@ -1796,7 +1795,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 30000
@@ -1808,7 +1807,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 410,
       "error": "The model 'mistralai/mixtral-8x22b-instruct-v0.1' has reached its end of life on 2026-05-21T00:00:00Z and is no longer available.",
       "timeout": 30000
@@ -1820,7 +1819,7 @@
       "type": "rerank",
       "endpoint": "/v1/ranking",
       "success": false,
-      "time": "0.00",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 30000
@@ -1832,7 +1831,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1844,7 +1843,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1856,7 +1855,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1868,7 +1867,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.00",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1880,7 +1879,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.74",
+      "time": "1.27",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -1891,7 +1890,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.04",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1903,7 +1902,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.02",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '23bd454d-b225-49a3-8118-582a62fc51b8': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -1915,7 +1914,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.04",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function 'e598bfc1-b058-41af-869d-556d3c7e1b48': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -1927,7 +1926,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.08",
       "statusCode": 404,
       "error": "Function '6497fc2b-7ff8-4019-8946-123dccbfc863': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -1939,7 +1938,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '02f84bf4-c1a1-489b-a9de-ac3e8dcdec14': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -1951,7 +1950,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.01",
+      "time": "0.05",
       "statusCode": 404,
       "error": "404 page not found\n",
       "timeout": 60000
@@ -1963,7 +1962,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '3d6c2ff8-8bfc-4d10-8fd0-b7337288e869': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -1975,7 +1974,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.02",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function 'e503b15c-62b0-4d69-b532-a88f0bfa2656': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 120000
@@ -1987,7 +1986,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.50",
+      "time": "0.91",
       "statusCode": 200,
       "timeout": 120000
     },
@@ -1998,7 +1997,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "1.19",
+      "time": "0.63",
       "statusCode": 200,
       "timeout": 120000
     },
@@ -2009,7 +2008,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function 'e2d298c5-204e-4213-b921-9f492cc9011b': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -2021,7 +2020,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '7dfc10a8-3cc4-448e-97c1-2213308dc222': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -2033,7 +2032,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.04",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '784a8ca4-ea7d-4c93-bb46-ec027c3fae47': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -2045,7 +2044,7 @@
       "type": "vision-image-only",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.44",
+      "time": "0.43",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -2056,7 +2055,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.08",
       "statusCode": 404,
       "error": "Function '04174188-f742-4069-9e72-d77c2b77d3cb': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 30000
@@ -2068,7 +2067,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function 'ee47df99-c92b-4dc9-b3a7-f3fb0f087b73': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 30000
@@ -2080,7 +2079,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.05",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function 'c322f327-55a3-4af3-a91f-c757e2b8b135': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 30000
@@ -2092,7 +2091,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.08",
       "statusCode": 404,
       "error": "Function '2f495340-a99f-4b4b-89bd-1beb003dd896': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 30000
@@ -2104,7 +2103,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '67324577-3f91-4aa6-b750-97468262530d': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 30000
@@ -2116,7 +2115,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '5a24a4f0-2d59-46b3-ac65-42307f2633d1': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -2128,7 +2127,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.05",
+      "time": "0.09",
       "statusCode": 404,
       "error": "Function '4df48b4f-e3c5-4ade-82c7-c06b65e25d18': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 30000
@@ -2140,7 +2139,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function 'af7b6f03-f615-4c5f-86c6-388bd35cede0': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -2152,7 +2151,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.04",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function 'f6b06895-d073-4714-8bb2-26c09e9f6597': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 90000
@@ -2164,7 +2163,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '2fddadfb-7e76-4c8a-9b82-f7d3fab94471': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 90000
@@ -2176,7 +2175,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '6018fed7-f227-48dc-99bc-3fd4264d5037': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -2188,7 +2187,7 @@
       "type": "vision-multimodal",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '20f2537e-8593-4eb9-ad40-60eee3bbaa55': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -2200,7 +2199,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.04",
+      "time": "0.13",
       "statusCode": 404,
       "error": "Function 'e6cab982-62f4-481e-9a7a-3dedb87dbd01': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -2212,7 +2211,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "8.51",
+      "time": "10.43",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -2223,7 +2222,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '9a10b012-e6df-46fd-83b2-700dcbc75814': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 30000
@@ -2235,7 +2234,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '767b5b9a-3f9d-4c1d-86e8-fa861988cee7': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -2247,7 +2246,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.02",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '7fadd4de-e22a-48e4-90e9-f02ef14a74b9': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -2259,7 +2258,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "4.64",
+      "time": "17.32",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -2270,7 +2269,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '39655fc1-9ebc-4b24-963e-6915ea6680de': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 30000
@@ -2282,7 +2281,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.47",
+      "time": "7.13",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -2293,7 +2292,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function 'f8c05193-d2e2-4f0f-bb4d-7ad70070002b': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 30000
@@ -2305,7 +2304,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.11",
+      "time": "0.72",
       "statusCode": 500,
       "error": "Internal error while making inference request",
       "timeout": 60000
@@ -2317,7 +2316,7 @@
       "type": "embed",
       "endpoint": "/v1/embeddings",
       "success": false,
-      "time": "0.04",
+      "time": "0.08",
       "statusCode": 404,
       "error": "Function '09c64e32-2b65-4892-a285-2f585408d118': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -2329,7 +2328,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.08",
       "statusCode": 404,
       "error": "Function '5beba52c-65a9-4f46-8cd9-656689a1b205': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 30000
@@ -2341,7 +2340,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.08",
       "statusCode": 404,
       "error": "Function '9b96341b-9791-4db9-a00d-4e43aa192a39': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 90000
@@ -2353,7 +2352,7 @@
       "type": "embed",
       "endpoint": "/v1/embeddings",
       "success": false,
-      "time": "0.03",
+      "time": "0.08",
       "statusCode": 404,
       "error": "Function 'b51e8011-e772-4c9a-8b02-618e99ae4467': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 30000
@@ -2365,7 +2364,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '46594287-38b9-481c-a37f-baa02f2d3ba1': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 90000
@@ -2377,7 +2376,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.04",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '5aa06dd2-0a02-4a5d-be4c-bf88e956965d': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 30000
@@ -2389,7 +2388,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.27",
+      "time": "0.69",
       "statusCode": 200,
       "timeout": 30000
     },
@@ -2400,7 +2399,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "37.41",
+      "time": "6.13",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -2411,7 +2410,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.19",
+      "time": "0.23",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -2422,7 +2421,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.05",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function 'b0fcd392-e905-4ab4-8eb9-aeae95c30b37': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -2434,7 +2433,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function 'c53ee0e9-bad9-4e09-b365-52c9d6b71254': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -2446,7 +2445,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.19",
+      "time": "0.17",
       "statusCode": 404,
       "error": "Model not found",
       "timeout": 30000
@@ -2458,7 +2457,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function 'bc205f8e-1740-40df-8d32-c4321763498a': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 30000
@@ -2470,7 +2469,7 @@
       "type": "embed",
       "endpoint": "/v1/embeddings",
       "success": false,
-      "time": "0.04",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '6caf65cf-1c3a-4823-89a5-21b821640d99': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -2482,7 +2481,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function 'f35337fa-b4dd-4996-bcba-5476ee01171d': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 30000
@@ -2494,7 +2493,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.02",
+      "time": "0.08",
       "statusCode": 404,
       "error": "Function '1c8df143-2303-419b-8b28-b4dd82cfe113': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -2506,7 +2505,7 @@
       "type": "embed",
       "endpoint": "/v1/embeddings",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '1528a0ad-205a-46ac-a783-94e2372586a9': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
@@ -2518,7 +2517,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": true,
-      "time": "0.27",
+      "time": "1.12",
       "statusCode": 200,
       "timeout": 60000
     },
@@ -2529,7 +2528,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '00bdd0a7-e38f-4423-9007-c4d8730a3f78': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 90000
@@ -2541,7 +2540,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function '316490c6-f1ed-41f9-9da8-3fa9e885653b': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 90000
@@ -2553,7 +2552,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.03",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function 'aab71274-5281-4941-b0b8-20f339d1fc7e': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 90000
@@ -2565,7 +2564,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.04",
+      "time": "0.07",
       "statusCode": 404,
       "error": "Function 'd6faa974-3591-49a4-963d-97221d074b2e': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 90000
@@ -2577,7 +2576,7 @@
       "type": "chat",
       "endpoint": "/v1/chat/completions",
       "success": false,
-      "time": "0.04",
+      "time": "0.08",
       "statusCode": 404,
       "error": "Function '8378ffb2-51b0-4140-9684-dda1889373e6': Not found for account 'ERjEBwJ7TOfEkxCqiu48S5EAXONAAjsGq_z2vpau5yM'",
       "timeout": 60000
