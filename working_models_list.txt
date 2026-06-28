@@ -14,6 +14,7 @@ meta/llama-3.2-90b-vision-instruct
 meta/llama-3.3-70b-instruct
 meta/llama-4-maverick-17b-128e-instruct
 meta/llama-guard-4-12b
+microsoft/phi-4-mini-instruct
 minimaxai/minimax-m2.7
 minimaxai/minimax-m3
 mistralai/ministral-14b-instruct-2512
@@ -38,7 +39,6 @@ nvidia/nemotron-3-content-safety
 nvidia/nemotron-3-nano-30b-a3b
 nvidia/nemotron-3-nano-omni-30b-a3b-reasoning
 nvidia/nemotron-3-super-120b-a12b
-nvidia/nemotron-3-ultra-550b-a55b
 nvidia/nemotron-3.5-content-safety
 nvidia/nemotron-content-safety-reasoning-4b
 nvidia/nemotron-mini-4b-instruct
