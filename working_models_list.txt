@@ -1,19 +1,17 @@
 abacusai/dracarys-llama-3.1-70b-instruct
-deepseek-ai/deepseek-v4-flash
-deepseek-ai/deepseek-v4-pro
 google/diffusiongemma-26b-a4b-it
 google/gemma-2-2b-it
-google/gemma-3n-e2b-it
 google/gemma-4-31b-it
 meta/llama-3.1-70b-instruct
 meta/llama-3.1-8b-instruct
+meta/llama-3.2-11b-vision-instruct
 meta/llama-3.2-3b-instruct
 meta/llama-3.2-90b-vision-instruct
 meta/llama-4-maverick-17b-128e-instruct
 meta/llama-guard-4-12b
-microsoft/phi-4-multimodal-instruct
 minimaxai/minimax-m2.7
 minimaxai/minimax-m3
+mistralai/ministral-14b-instruct-2512
 mistralai/mistral-large-3-675b-instruct-2512
 mistralai/mistral-medium-3.5-128b
 mistralai/mistral-nemotron
@@ -24,7 +22,6 @@ nvidia/gliner-pii
 nvidia/ising-calibration-1-35b-a3b
 nvidia/llama-3.1-nemoguard-8b-content-safety
 nvidia/llama-3.1-nemoguard-8b-topic-control
-nvidia/llama-3.1-nemotron-nano-8b-v1
 nvidia/llama-3.1-nemotron-nano-vl-8b-v1
 nvidia/llama-3.1-nemotron-safety-guard-8b-v3
 nvidia/llama-3.3-nemotron-super-49b-v1
@@ -38,6 +35,7 @@ nvidia/nemotron-3-nano-omni-30b-a3b-reasoning
 nvidia/nemotron-3-super-120b-a12b
 nvidia/nemotron-3-ultra-550b-a55b
 nvidia/nemotron-3.5-content-safety
+nvidia/nemotron-content-safety-reasoning-4b
 nvidia/nemotron-mini-4b-instruct
 nvidia/nemotron-nano-12b-v2-vl
 nvidia/nemotron-parse
