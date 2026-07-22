@@ -1,4 +1,6 @@
 abacusai/dracarys-llama-3.1-70b-instruct
+bytedance/seed-oss-36b-instruct
+deepseek-ai/deepseek-v4-pro
 google/diffusiongemma-26b-a4b-it
 google/gemma-2-2b-it
 google/gemma-3n-e2b-it
@@ -28,7 +30,9 @@ nvidia/llama-nemotron-embed-vl-1b-v2
 nvidia/nemoretriever-parse
 nvidia/nemotron-3-embed-1b
 nvidia/nemotron-3-nano-30b-a3b
+nvidia/nemotron-3-nano-omni-30b-a3b-reasoning
 nvidia/nemotron-3-super-120b-a12b
+nvidia/nemotron-3-ultra-550b-a55b
 nvidia/nemotron-3.5-content-safety
 nvidia/nemotron-mini-4b-instruct
 nvidia/nemotron-nano-12b-v2-vl
@@ -38,7 +42,6 @@ nvidia/nv-embedcode-7b-v1
 nvidia/nv-embedqa-e5-v5
 nvidia/nvidia-nemotron-nano-9b-v2
 nvidia/riva-translate-4b-instruct-v1.1
-openai/gpt-oss-120b
 openai/gpt-oss-20b
 poolside/laguna-xs-2.1
 qwen/qwen3-next-80b-a3b-instruct
@@ -46,5 +49,6 @@ qwen/qwen3.5-397b-a17b
 sarvamai/sarvam-m
 stepfun-ai/step-3.5-flash
 stepfun-ai/step-3.7-flash
+thinkingmachines/inkling
 upstage/solar-10.7b-instruct
 z-ai/glm-5.2
