@@ -5,13 +5,12 @@ google/diffusiongemma-26b-a4b-it
 google/gemma-2-2b-it
 google/gemma-3n-e2b-it
 google/gemma-3n-e4b-it
-google/gemma-4-31b-it
 meta/llama-3.1-70b-instruct
 meta/llama-3.1-8b-instruct
 meta/llama-3.2-11b-vision-instruct
 meta/llama-3.2-3b-instruct
-meta/llama-guard-4-12b
-minimaxai/minimax-m2.7
+meta/llama-3.2-90b-vision-instruct
+meta/llama-4-maverick-17b-128e-instruct
 minimaxai/minimax-m3
 mistralai/mistral-large-3-675b-instruct-2512
 mistralai/mistral-nemotron
@@ -44,10 +43,7 @@ nvidia/nvidia-nemotron-nano-9b-v2
 nvidia/riva-translate-4b-instruct-v1.1
 openai/gpt-oss-20b
 poolside/laguna-xs-2.1
-qwen/qwen3-next-80b-a3b-instruct
-qwen/qwen3.5-397b-a17b
 sarvamai/sarvam-m
-stepfun-ai/step-3.5-flash
 stepfun-ai/step-3.7-flash
 thinkingmachines/inkling
 upstage/solar-10.7b-instruct
