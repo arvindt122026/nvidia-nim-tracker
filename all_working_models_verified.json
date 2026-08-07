@@ -6,7 +6,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.57",
+    "time": "0.37",
     "statusCode": 200,
     "timeout": 90000
   },
@@ -17,7 +17,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.14",
+    "time": "0.26",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -28,7 +28,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.33",
+    "time": "0.35",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -39,7 +39,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.29",
+    "time": "0.34",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -50,7 +50,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.19",
+    "time": "0.21",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -61,7 +61,7 @@
     "type": "vision-image-only",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.52",
+    "time": "0.54",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -72,7 +72,7 @@
     "type": "vision-multimodal",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.72",
+    "time": "0.36",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -83,7 +83,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.33",
+    "time": "0.34",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -94,7 +94,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.33",
+    "time": "0.31",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -105,9 +105,20 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.73",
+    "time": "0.31",
     "statusCode": 200,
     "timeout": 60000
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "publisher": "openai",
+    "modelName": "gpt-oss-120b",
+    "type": "chat",
+    "endpoint": "/v1/chat/completions",
+    "success": true,
+    "time": "65.42",
+    "statusCode": 200,
+    "timeout": 90000
   },
   {
     "model": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
@@ -116,7 +127,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.96",
+    "time": "0.56",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -127,7 +138,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "32.29",
+    "time": "0.26",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -138,7 +149,7 @@
     "type": "vision-multimodal",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "6.98",
+    "time": "0.27",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -149,7 +160,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.19",
+    "time": "0.82",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -160,7 +171,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.39",
+    "time": "0.44",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -171,7 +182,7 @@
     "type": "vision-image-only",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.50",
+    "time": "0.52",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -182,7 +193,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.17",
+    "time": "0.19",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -193,9 +204,20 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.24",
+    "time": "0.25",
     "statusCode": 200,
     "timeout": 60000
+  },
+  {
+    "model": "meta/llama-3.2-3b-instruct",
+    "publisher": "meta",
+    "modelName": "llama-3.2-3b-instruct",
+    "type": "chat",
+    "endpoint": "/v1/chat/completions",
+    "success": true,
+    "time": "0.23",
+    "statusCode": 200,
+    "timeout": 30000
   },
   {
     "model": "meta/llama-3.2-11b-vision-instruct",
@@ -204,7 +226,7 @@
     "type": "vision-multimodal",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "13.10",
+    "time": "0.75",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -215,7 +237,7 @@
     "type": "vision-multimodal",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "5.82",
+    "time": "0.77",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -226,7 +248,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.23",
+    "time": "0.26",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -237,7 +259,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.92",
+    "time": "5.40",
     "statusCode": 200,
     "timeout": 90000
   },
@@ -259,7 +281,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.13",
+    "time": "0.28",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -270,7 +292,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "1.48",
+    "time": "0.39",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -281,18 +303,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "8.76",
-    "statusCode": 200,
-    "timeout": 120000
-  },
-  {
-    "model": "deepseek-ai/deepseek-v4-pro",
-    "publisher": "deepseek-ai",
-    "modelName": "deepseek-v4-pro",
-    "type": "chat",
-    "endpoint": "/v1/chat/completions",
-    "success": true,
-    "time": "11.39",
+    "time": "0.33",
     "statusCode": 200,
     "timeout": 120000
   },
@@ -303,7 +314,7 @@
     "type": "vision-image-only",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.67",
+    "time": "0.44",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -314,7 +325,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "6.88",
+    "time": "1.13",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -325,7 +336,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.26",
+    "time": "18.05",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -336,7 +347,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.51",
+    "time": "0.36",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -347,7 +358,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.51",
+    "time": "0.50",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -358,7 +369,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.18",
+    "time": "0.16",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -369,7 +380,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "40.60",
+    "time": "2.46",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -380,7 +391,18 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "89.00",
+    "time": "22.70",
+    "statusCode": 200,
+    "timeout": 60000
+  },
+  {
+    "model": "poolside/laguna-xs-2.1",
+    "publisher": "poolside",
+    "modelName": "laguna-xs-2.1",
+    "type": "chat",
+    "endpoint": "/v1/chat/completions",
+    "success": true,
+    "time": "0.25",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -391,7 +413,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.34",
+    "time": "0.33",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -402,7 +424,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.27",
+    "time": "0.23",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -413,7 +435,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.34",
+    "time": "0.36",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -424,7 +446,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "5.87",
+    "time": "5.24",
     "statusCode": 200,
     "timeout": 30000
   }
