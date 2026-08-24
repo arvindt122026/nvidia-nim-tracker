@@ -6,7 +6,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.34",
+    "time": "0.26",
     "statusCode": 200,
     "timeout": 90000
   },
@@ -17,7 +17,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.32",
+    "time": "0.53",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -28,7 +28,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.32",
+    "time": "0.53",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -39,7 +39,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.34",
+    "time": "0.21",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -50,7 +50,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.17",
+    "time": "0.25",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -61,7 +61,7 @@
     "type": "vision-image-only",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.51",
+    "time": "0.59",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -72,7 +72,7 @@
     "type": "vision-multimodal",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.19",
+    "time": "0.33",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -83,7 +83,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.33",
+    "time": "0.40",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -94,7 +94,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.29",
+    "time": "0.33",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -105,7 +105,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "2.70",
+    "time": "2.24",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -116,7 +116,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.37",
+    "time": "75.55",
     "statusCode": 200,
     "timeout": 90000
   },
@@ -127,7 +127,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "24.13",
+    "time": "0.43",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -138,7 +138,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.23",
+    "time": "0.19",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -149,7 +149,7 @@
     "type": "vision-multimodal",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "7.01",
+    "time": "5.09",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -160,7 +160,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "19.34",
+    "time": "0.37",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -171,7 +171,7 @@
     "type": "vision-image-only",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.51",
+    "time": "0.60",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -182,7 +182,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.17",
+    "time": "0.24",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -193,9 +193,20 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.25",
+    "time": "0.31",
     "statusCode": 200,
     "timeout": 60000
+  },
+  {
+    "model": "meta/llama-3.2-11b-vision-instruct",
+    "publisher": "meta",
+    "modelName": "llama-3.2-11b-vision-instruct",
+    "type": "vision-multimodal",
+    "endpoint": "/v1/chat/completions",
+    "success": true,
+    "time": "0.56",
+    "statusCode": 200,
+    "timeout": 30000
   },
   {
     "model": "meta/llama-3.2-90b-vision-instruct",
@@ -204,7 +215,7 @@
     "type": "vision-multimodal",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "1.97",
+    "time": "8.64",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -215,7 +226,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.05",
+    "time": "0.10",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -226,7 +237,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.21",
+    "time": "0.28",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -237,7 +248,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "40.19",
+    "time": "0.37",
     "statusCode": 200,
     "timeout": 90000
   },
@@ -248,7 +259,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.20",
+    "time": "0.23",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -259,7 +270,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.21",
+    "time": "0.36",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -270,7 +281,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.25",
+    "time": "6.30",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -281,7 +292,18 @@
     "type": "vision-image-only",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "10.92",
+    "time": "0.60",
+    "statusCode": 200,
+    "timeout": 30000
+  },
+  {
+    "model": "minimaxai/minimax-m3",
+    "publisher": "minimaxai",
+    "modelName": "minimax-m3",
+    "type": "chat",
+    "endpoint": "/v1/chat/completions",
+    "success": true,
+    "time": "0.32",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -292,7 +314,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.90",
+    "time": "0.59",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -303,7 +325,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "85.44",
+    "time": "0.50",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -314,7 +336,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.19",
+    "time": "0.18",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -325,7 +347,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "15.14",
+    "time": "2.72",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -336,7 +358,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.34",
+    "time": "0.19",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -347,7 +369,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.39",
+    "time": "0.75",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -358,7 +380,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.13",
+    "time": "0.36",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -369,7 +391,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.34",
+    "time": "0.43",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -380,7 +402,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.20",
+    "time": "0.28",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -391,7 +413,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.29",
+    "time": "142.70",
     "statusCode": 200,
     "timeout": 120000
   },
@@ -402,7 +424,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.29",
+    "time": "0.19",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -424,7 +446,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "9.42",
+    "time": "1.39",
     "statusCode": 200,
     "timeout": 60000
   }
