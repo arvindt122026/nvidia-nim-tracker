@@ -6,7 +6,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.26",
+    "time": "0.30",
     "statusCode": 200,
     "timeout": 90000
   },
@@ -17,7 +17,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.53",
+    "time": "0.32",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -28,7 +28,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.53",
+    "time": "0.31",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -39,7 +39,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.21",
+    "time": "0.29",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -50,7 +50,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.25",
+    "time": "0.19",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -61,7 +61,7 @@
     "type": "vision-image-only",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.59",
+    "time": "0.73",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -72,7 +72,7 @@
     "type": "vision-multimodal",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.33",
+    "time": "0.18",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -83,7 +83,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.40",
+    "time": "0.34",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -94,7 +94,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.33",
+    "time": "0.30",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -105,20 +105,9 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "2.24",
+    "time": "0.32",
     "statusCode": 200,
     "timeout": 60000
-  },
-  {
-    "model": "openai/gpt-oss-120b",
-    "publisher": "openai",
-    "modelName": "gpt-oss-120b",
-    "type": "chat",
-    "endpoint": "/v1/chat/completions",
-    "success": true,
-    "time": "75.55",
-    "statusCode": 200,
-    "timeout": 90000
   },
   {
     "model": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
@@ -127,7 +116,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.43",
+    "time": "0.58",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -138,7 +127,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.19",
+    "time": "0.23",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -149,7 +138,7 @@
     "type": "vision-multimodal",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "5.09",
+    "time": "11.75",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -160,7 +149,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.37",
+    "time": "11.76",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -171,7 +160,7 @@
     "type": "vision-image-only",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.60",
+    "time": "0.51",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -182,7 +171,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.24",
+    "time": "0.17",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -193,9 +182,31 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.31",
+    "time": "0.23",
     "statusCode": 200,
     "timeout": 60000
+  },
+  {
+    "model": "meta/llama-3.3-70b-instruct",
+    "publisher": "meta",
+    "modelName": "llama-3.3-70b-instruct",
+    "type": "chat",
+    "endpoint": "/v1/chat/completions",
+    "success": true,
+    "time": "99.56",
+    "statusCode": 200,
+    "timeout": 90000
+  },
+  {
+    "model": "meta/llama-3.2-3b-instruct",
+    "publisher": "meta",
+    "modelName": "llama-3.2-3b-instruct",
+    "type": "chat",
+    "endpoint": "/v1/chat/completions",
+    "success": true,
+    "time": "0.29",
+    "statusCode": 200,
+    "timeout": 30000
   },
   {
     "model": "meta/llama-3.2-11b-vision-instruct",
@@ -204,7 +215,7 @@
     "type": "vision-multimodal",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.56",
+    "time": "0.60",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -215,7 +226,7 @@
     "type": "vision-multimodal",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "8.64",
+    "time": "5.84",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -226,7 +237,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.10",
+    "time": "0.06",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -237,7 +248,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.28",
+    "time": "0.22",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -248,7 +259,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.37",
+    "time": "0.23",
     "statusCode": 200,
     "timeout": 90000
   },
@@ -259,7 +270,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.23",
+    "time": "0.36",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -270,7 +281,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.36",
+    "time": "0.24",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -281,7 +292,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "6.30",
+    "time": "0.15",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -292,29 +303,7 @@
     "type": "vision-image-only",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.60",
-    "statusCode": 200,
-    "timeout": 30000
-  },
-  {
-    "model": "minimaxai/minimax-m3",
-    "publisher": "minimaxai",
-    "modelName": "minimax-m3",
-    "type": "chat",
-    "endpoint": "/v1/chat/completions",
-    "success": true,
-    "time": "0.32",
-    "statusCode": 200,
-    "timeout": 30000
-  },
-  {
-    "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
-    "publisher": "nvidia",
-    "modelName": "nemotron-3-nano-omni-30b-a3b-reasoning",
-    "type": "chat",
-    "endpoint": "/v1/chat/completions",
-    "success": true,
-    "time": "0.59",
+    "time": "1.96",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -325,7 +314,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.50",
+    "time": "0.76",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -336,7 +325,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.18",
+    "time": "0.19",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -347,7 +336,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "2.72",
+    "time": "4.13",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -358,18 +347,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.19",
-    "statusCode": 200,
-    "timeout": 60000
-  },
-  {
-    "model": "thinkingmachines/inkling",
-    "publisher": "thinkingmachines",
-    "modelName": "inkling",
-    "type": "chat",
-    "endpoint": "/v1/chat/completions",
-    "success": true,
-    "time": "0.75",
+    "time": "0.29",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -380,7 +358,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.36",
+    "time": "0.21",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -391,7 +369,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.43",
+    "time": "0.34",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -402,7 +380,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.28",
+    "time": "0.19",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -413,7 +391,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "142.70",
+    "time": "0.90",
     "statusCode": 200,
     "timeout": 120000
   },
@@ -424,7 +402,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.19",
+    "time": "1.93",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -435,7 +413,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.40",
+    "time": "0.42",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -446,7 +424,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "1.39",
+    "time": "12.56",
     "statusCode": 200,
     "timeout": 60000
   }
