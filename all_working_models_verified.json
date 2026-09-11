@@ -6,7 +6,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "1.03",
+    "time": "1.13",
     "statusCode": 200,
     "timeout": 90000
   },
@@ -17,7 +17,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.32",
+    "time": "0.37",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -28,7 +28,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.19",
+    "time": "0.26",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -39,7 +39,7 @@
     "type": "vision-image-only",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.73",
+    "time": "1.32",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -50,7 +50,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.32",
+    "time": "0.38",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -61,7 +61,18 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "14.58",
+    "time": "1.77",
+    "statusCode": 200,
+    "timeout": 60000
+  },
+  {
+    "model": "nvidia/llama-3.1-nemoguard-8b-content-safety",
+    "publisher": "nvidia",
+    "modelName": "llama-3.1-nemoguard-8b-content-safety",
+    "type": "chat",
+    "endpoint": "/v1/chat/completions",
+    "success": true,
+    "time": "40.31",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -72,7 +83,18 @@
     "type": "vision-multimodal",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "4.90",
+    "time": "2.86",
+    "statusCode": 200,
+    "timeout": 30000
+  },
+  {
+    "model": "google/diffusiongemma-26b-a4b-it",
+    "publisher": "google",
+    "modelName": "diffusiongemma-26b-a4b-it",
+    "type": "vision-image-only",
+    "endpoint": "/v1/chat/completions",
+    "success": true,
+    "time": "3.72",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -83,7 +105,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.87",
+    "time": "0.52",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -94,7 +116,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "34.03",
+    "time": "26.66",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -105,7 +127,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.18",
+    "time": "0.19",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -116,7 +138,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.20",
+    "time": "0.38",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -127,7 +149,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "6.97",
+    "time": "7.95",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -138,9 +160,20 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.21",
+    "time": "0.27",
     "statusCode": 200,
     "timeout": 30000
+  },
+  {
+    "model": "deepseek-ai/deepseek-v4-flash-0731",
+    "publisher": "deepseek-ai",
+    "modelName": "deepseek-v4-flash-0731",
+    "type": "chat",
+    "endpoint": "/v1/chat/completions",
+    "success": true,
+    "time": "0.65",
+    "statusCode": 200,
+    "timeout": 120000
   },
   {
     "model": "meta/muse-glimmer-30b",
@@ -149,20 +182,20 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "6.06",
+    "time": "1.25",
     "statusCode": 200,
     "timeout": 60000
   },
   {
-    "model": "moonshotai/kimi-k3",
-    "publisher": "moonshotai",
-    "modelName": "kimi-k3",
+    "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+    "publisher": "nvidia",
+    "modelName": "nemotron-3.5-lightning-30b-a3b",
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "5.61",
+    "time": "1.54",
     "statusCode": 200,
-    "timeout": 60000
+    "timeout": 30000
   },
   {
     "model": "deepseek-ai/deepseek-v4-pro-0813",
@@ -171,7 +204,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "5.94",
+    "time": "114.82",
     "statusCode": 200,
     "timeout": 120000
   }
