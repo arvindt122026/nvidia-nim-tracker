@@ -6,7 +6,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "1.13",
+    "time": "0.55",
     "statusCode": 200,
     "timeout": 90000
   },
@@ -17,7 +17,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.37",
+    "time": "0.31",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -28,7 +28,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.26",
+    "time": "0.18",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -39,7 +39,7 @@
     "type": "vision-image-only",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "1.32",
+    "time": "0.51",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -50,7 +50,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.38",
+    "time": "0.34",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -61,7 +61,18 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "1.77",
+    "time": "0.65",
+    "statusCode": 200,
+    "timeout": 60000
+  },
+  {
+    "model": "mistralai/mistral-nemotron",
+    "publisher": "mistralai",
+    "modelName": "mistral-nemotron",
+    "type": "chat",
+    "endpoint": "/v1/chat/completions",
+    "success": true,
+    "time": "85.47",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -72,7 +83,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "40.31",
+    "time": "40.27",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -83,18 +94,7 @@
     "type": "vision-multimodal",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "2.86",
-    "statusCode": 200,
-    "timeout": 30000
-  },
-  {
-    "model": "google/diffusiongemma-26b-a4b-it",
-    "publisher": "google",
-    "modelName": "diffusiongemma-26b-a4b-it",
-    "type": "vision-image-only",
-    "endpoint": "/v1/chat/completions",
-    "success": true,
-    "time": "3.72",
+    "time": "13.42",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -105,20 +105,9 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.52",
+    "time": "0.75",
     "statusCode": 200,
     "timeout": 30000
-  },
-  {
-    "model": "nvidia/nemotron-3-ultra-550b-a55b",
-    "publisher": "nvidia",
-    "modelName": "nemotron-3-ultra-550b-a55b",
-    "type": "chat",
-    "endpoint": "/v1/chat/completions",
-    "success": true,
-    "time": "26.66",
-    "statusCode": 200,
-    "timeout": 60000
   },
   {
     "model": "nvidia/nemotron-3.5-content-safety",
@@ -127,7 +116,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.19",
+    "time": "0.20",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -138,7 +127,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.38",
+    "time": "0.22",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -149,7 +138,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "7.95",
+    "time": "0.87",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -160,7 +149,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.27",
+    "time": "0.20",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -171,7 +160,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.65",
+    "time": "42.27",
     "statusCode": 200,
     "timeout": 120000
   },
@@ -182,7 +171,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "1.25",
+    "time": "6.58",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -193,7 +182,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "1.54",
+    "time": "0.68",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -204,8 +193,30 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "114.82",
+    "time": "0.24",
     "statusCode": 200,
     "timeout": 120000
+  },
+  {
+    "model": "nvidia/nemotron-parse-2.0",
+    "publisher": "nvidia",
+    "modelName": "nemotron-parse-2.0",
+    "type": "chat",
+    "endpoint": "/v1/chat/completions",
+    "success": true,
+    "time": "0.20",
+    "statusCode": 200,
+    "timeout": 60000
+  },
+  {
+    "model": "z-ai/glm-5.3-flash",
+    "publisher": "z-ai",
+    "modelName": "glm-5.3-flash",
+    "type": "chat",
+    "endpoint": "/v1/chat/completions",
+    "success": true,
+    "time": "0.97",
+    "statusCode": 200,
+    "timeout": 60000
   }
 ]
