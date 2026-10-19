@@ -17,7 +17,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.55",
+    "time": "0.54",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -28,7 +28,7 @@
     "type": "vision-image-only",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "1.14",
+    "time": "0.60",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -39,7 +39,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.60",
+    "time": "0.39",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -50,7 +50,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.23",
+    "time": "0.43",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -61,7 +61,29 @@
     "type": "vision-multimodal",
     "endpoint": "/v1/chat/completions",
     "success": true,
+    "time": "10.77",
+    "statusCode": 200,
+    "timeout": 30000
+  },
+  {
+    "model": "google/diffusiongemma-26b-a4b-it",
+    "publisher": "google",
+    "modelName": "diffusiongemma-26b-a4b-it",
+    "type": "vision-image-only",
+    "endpoint": "/v1/chat/completions",
+    "success": true,
     "time": "1.28",
+    "statusCode": 200,
+    "timeout": 30000
+  },
+  {
+    "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+    "publisher": "nvidia",
+    "modelName": "nemotron-3-nano-omni-30b-a3b-reasoning",
+    "type": "chat",
+    "endpoint": "/v1/chat/completions",
+    "success": true,
+    "time": "0.48",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -72,7 +94,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.53",
+    "time": "9.55",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -83,7 +105,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.45",
+    "time": "0.20",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -99,24 +121,13 @@
     "timeout": 30000
   },
   {
-    "model": "nvidia/ising-calibration-1.5-31b",
-    "publisher": "nvidia",
-    "modelName": "ising-calibration-1.5-31b",
-    "type": "chat",
-    "endpoint": "/v1/chat/completions",
-    "success": true,
-    "time": "0.51",
-    "statusCode": 200,
-    "timeout": 30000
-  },
-  {
     "model": "nvidia/riva-translate-4b-instruct-v2",
     "publisher": "nvidia",
     "modelName": "riva-translate-4b-instruct-v2",
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.35",
+    "time": "1.54",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -127,7 +138,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "1.24",
+    "time": "4.29",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -138,7 +149,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "13.05",
+    "time": "0.24",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -149,19 +160,41 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.23",
+    "time": "0.22",
     "statusCode": 200,
     "timeout": 60000
   },
   {
-    "model": "z-ai/glm-5.3-flash",
+    "model": "z-ai/glm-5.3",
     "publisher": "z-ai",
-    "modelName": "glm-5.3-flash",
+    "modelName": "glm-5.3",
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "92.90",
+    "time": "28.09",
     "statusCode": 200,
     "timeout": 60000
+  },
+  {
+    "model": "stepfun-ai/step-5-preview",
+    "publisher": "stepfun-ai",
+    "modelName": "step-5-preview",
+    "type": "chat",
+    "endpoint": "/v1/chat/completions",
+    "success": true,
+    "time": "9.37",
+    "statusCode": 200,
+    "timeout": 60000
+  },
+  {
+    "model": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+    "publisher": "nvidia",
+    "modelName": "nemotron-3.5-super-vl-120b-a12b",
+    "type": "chat",
+    "endpoint": "/v1/chat/completions",
+    "success": true,
+    "time": "12.02",
+    "statusCode": 200,
+    "timeout": 90000
   }
 ]
