@@ -1,12 +1,23 @@
 [
   {
+    "model": "google/gemma-4-31b-it",
+    "publisher": "google",
+    "modelName": "gemma-4-31b-it",
+    "type": "chat",
+    "endpoint": "/v1/chat/completions",
+    "success": true,
+    "time": "1.35",
+    "statusCode": 200,
+    "timeout": 30000
+  },
+  {
     "model": "nvidia/nemotron-3-super-120b-a12b",
     "publisher": "nvidia",
     "modelName": "nemotron-3-super-120b-a12b",
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.46",
+    "time": "0.83",
     "statusCode": 200,
     "timeout": 90000
   },
@@ -17,7 +28,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.54",
+    "time": "0.31",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -28,7 +39,7 @@
     "type": "vision-image-only",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.60",
+    "time": "0.58",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -39,7 +50,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.39",
+    "time": "0.32",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -50,7 +61,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.43",
+    "time": "0.24",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -61,7 +72,7 @@
     "type": "vision-multimodal",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "10.77",
+    "time": "3.18",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -72,7 +83,7 @@
     "type": "vision-image-only",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "1.28",
+    "time": "1.64",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -83,7 +94,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.48",
+    "time": "0.65",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -94,7 +105,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "9.55",
+    "time": "11.18",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -105,7 +116,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.20",
+    "time": "0.14",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -116,18 +127,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.38",
-    "statusCode": 200,
-    "timeout": 30000
-  },
-  {
-    "model": "nvidia/riva-translate-4b-instruct-v2",
-    "publisher": "nvidia",
-    "modelName": "riva-translate-4b-instruct-v2",
-    "type": "chat",
-    "endpoint": "/v1/chat/completions",
-    "success": true,
-    "time": "1.54",
+    "time": "0.20",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -138,7 +138,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "4.29",
+    "time": "0.81",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -149,7 +149,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.24",
+    "time": "0.58",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -160,7 +160,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.22",
+    "time": "0.14",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -171,7 +171,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "28.09",
+    "time": "1.38",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -182,7 +182,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "9.37",
+    "time": "0.39",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -193,7 +193,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "12.02",
+    "time": "0.31",
     "statusCode": 200,
     "timeout": 90000
   }
