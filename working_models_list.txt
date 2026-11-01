@@ -16,8 +16,6 @@ nvidia/nemotron-3.5-embed-8b
 nvidia/nemotron-3.5-lightning-30b-a3b
 nvidia/nemotron-3.5-super-vl-120b-a12b
 nvidia/nemotron-parse
-nvidia/riva-translate-4b-instruct-v2
-openai/gpt-oss-20b
+nvidia/nemotron-parse-2.0
 poolside/laguna-xs-2.1
 stepfun-ai/step-5-preview
-z-ai/glm-5.3-flash
