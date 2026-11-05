@@ -6,7 +6,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "18.61",
+    "time": "28.95",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -17,7 +17,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.31",
+    "time": "0.33",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -28,7 +28,7 @@
     "type": "vision-image-only",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "1.17",
+    "time": "0.72",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -39,7 +39,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.31",
+    "time": "0.51",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -50,7 +50,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.18",
+    "time": "0.19",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -61,7 +61,7 @@
     "type": "vision-multimodal",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "1.65",
+    "time": "16.82",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -72,7 +72,7 @@
     "type": "vision-image-only",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.61",
+    "time": "1.75",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -83,7 +83,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.41",
+    "time": "2.05",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -94,7 +94,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.86",
+    "time": "0.92",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -105,7 +105,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.05",
+    "time": "0.06",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -116,7 +116,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.22",
+    "time": "0.24",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -127,7 +127,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.21",
+    "time": "0.34",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -138,7 +138,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.19",
+    "time": "0.21",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -149,7 +149,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.32",
+    "time": "0.73",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -160,7 +160,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.15",
+    "time": "0.24",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -171,7 +171,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.13",
+    "time": "0.15",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -182,7 +182,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.82",
+    "time": "0.49",
     "statusCode": 200,
     "timeout": 90000
   },
@@ -193,7 +193,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.03",
+    "time": "0.11",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -204,7 +204,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.04",
+    "time": "0.07",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -215,7 +215,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.38",
+    "time": "0.64",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -226,7 +226,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.19",
+    "time": "0.15",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -237,7 +237,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "10.20",
+    "time": "0.26",
     "statusCode": 200,
     "timeout": 30000
   }
