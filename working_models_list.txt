@@ -1,3 +1,4 @@
+minimaxai/minimax-m3.1-flash
 mistralai/mistral-large-4-1t-a52b
 moonshotai/kimi-k3.1-pro
 nvidia/ising-calibration-1.5-31b
@@ -9,5 +10,6 @@ nvidia/nemotron-3.5-embed-1b
 nvidia/nemotron-3.5-embed-8b
 nvidia/nemotron-3.5-lightning-30b-a3b
 nvidia/nemotron-3.5-super-vl-120b-a12b
+nvidia/riva-translate-4b-instruct-v2
 poolside/laguna-xs-2.1
 stepfun-ai/step-5-preview
