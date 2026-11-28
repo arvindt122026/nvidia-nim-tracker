@@ -1,23 +1,12 @@
 [
   {
-    "model": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
-    "publisher": "nvidia",
-    "modelName": "llama-3.1-nemotron-safety-guard-8b-v3",
-    "type": "chat",
-    "endpoint": "/v1/chat/completions",
-    "success": true,
-    "time": "0.78",
-    "statusCode": 200,
-    "timeout": 60000
-  },
-  {
     "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
     "publisher": "nvidia",
     "modelName": "nemotron-3-nano-omni-30b-a3b-reasoning",
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.22",
+    "time": "0.21",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -28,7 +17,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.71",
+    "time": "1.29",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -39,7 +28,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.16",
+    "time": "0.12",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -50,18 +39,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "7.10",
-    "statusCode": 200,
-    "timeout": 30000
-  },
-  {
-    "model": "nvidia/riva-translate-4b-instruct-v2",
-    "publisher": "nvidia",
-    "modelName": "riva-translate-4b-instruct-v2",
-    "type": "chat",
-    "endpoint": "/v1/chat/completions",
-    "success": true,
-    "time": "12.38",
+    "time": "0.51",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -72,7 +50,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.34",
+    "time": "0.25",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -83,7 +61,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.56",
+    "time": "1.03",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -94,7 +72,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.35",
+    "time": "0.34",
     "statusCode": 200,
     "timeout": 90000
   },
@@ -105,7 +83,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "0.07",
+    "time": "0.09",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -116,7 +94,7 @@
     "type": "embed",
     "endpoint": "/v1/embeddings",
     "success": true,
-    "time": "39.96",
+    "time": "0.29",
     "statusCode": 200,
     "timeout": 60000
   },
@@ -127,7 +105,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "27.76",
+    "time": "11.28",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -138,7 +116,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "0.16",
+    "time": "0.17",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -149,7 +127,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "12.99",
+    "time": "5.66",
     "statusCode": 200,
     "timeout": 30000
   },
@@ -160,7 +138,7 @@
     "type": "chat",
     "endpoint": "/v1/chat/completions",
     "success": true,
-    "time": "34.94",
+    "time": "32.69",
     "statusCode": 200,
     "timeout": 60000
   }
